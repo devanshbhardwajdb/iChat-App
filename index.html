@@ -6,28 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iChat</title>
     <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
     <script defer src="client.js"></script>
+
+    <link rel="icon" href="logo1.png">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body>
 
     <div id="main">
+        
         <nav id="nav">
-            <img class="logo" src="logo.png" alt="logo">
+            <img class="logo" src="../logo1.png" alt="logo">
             <h1>Welcome to iChat</h1>
         </nav>
         <div class="container">
-            <!-- <div class="message left">Satyam: Hi bro</div>
-            <div class="message right">Devansh: Hi, Aur kesa hai?</div> -->
+            <div id="nav1">
+                <button class="btn2">
+                    <img src="search.png" alt="">
+                </button>
+                <button class="btn2">
+                    <img src="threedots.png" alt="">
+                </button>
+                <div id="encrypt">
+                    <img src="lock1.png" alt="">
+                    <p>Messages are end-to-end encrypted. No one outside of this chat, not even iChat can read or listen to them.</p>
+                </div>
+            </div>
+            
+            <div id="messagecontainer">
+<!-- 
+                <div class="message left">Satyam: Hi bro</div>
+                <div class="message right">Devansh: Hi, Aur kesa hai?</div> -->
+
+            </div>
+            <div id="send">
+                <form action="" id="send-container">
+                    <input type="text" name="messageinp" id="message-inp" placeholder="Type a message" autofocus>
+                    <button class="btn" type="submit">
+                        <img src="send.png" alt="">
+                    </button>
+                </form>
+            </div>
         </div>
-        <div class="send">
-            <form action="#" id="send-container">
-                <input type="text" name="messageinp" id="message-inp">
-                <button class="btn" type="submit">Send</button>
-            </form>
-        </div>
+
     </div>
 </body>
 
