@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main2 {
+    background-color: #222E35;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    gap: 18%;
+
+}
+
+
+.container2 {
+    width: 50%;
+    height: 25%;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    overflow-y: auto;
+    margin-bottom: 5px;
+    background-color: #889298;
+    position: relative;
+    /* right: 10px; */
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    color: #222E35;
+    text-transform: uppercase;
+}
+#nav2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#nav2 img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+
+}
+
+/* #send-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+} */
+
+
+
+#message-inp2 {
+    width: 200px;
+    border-radius: 6px;
+    height: 35px;
+    background-color: #2A3942;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: #C1D7DB;
+    margin-left: 50px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    
+
+
+}
+
+#message-inp2:focus {
+    outline: none;
+}
+
+.btn3 {
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: transparent;
+    /* border: 2px solid black; */
+    border-radius: 50px;
+    vertical-align: middle;
+    /* width: 7%; */
+}
+.btn3:hover{
+    cursor: pointer;
+}
+.btn3:active{
+    background-color: rgba(50, 58, 63);
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    /* width: 25px; */
+
+}
+
+.btn3 img {
+    outline: none;
+    filter: invert(0.05);
+
+}
